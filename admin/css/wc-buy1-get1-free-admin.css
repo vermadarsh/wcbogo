@@ -1,0 +1,21 @@
+ul.wc-tabs li.wcbogo-free-product_tab a::before {
+	font-family: Dashicons;
+	content: "\f180" !important;
+}
+
+.non-clickable{
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.non-clickable:hover {
+	cursor: not-allowed;
+}
+
+p.wcbogo-free-product select {
+	width: 50%;
+}
+
+textarea.wcbogo-message-for-free-product {
+	height: 125px !important;
+}

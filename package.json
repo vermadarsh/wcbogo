@@ -1,0 +1,13 @@
+{
+  "name": "wc-buy1-get1-free",
+  "version": "1.0.0",
+  "description": "WC buy one get one WooCommerce plugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adarsh Verma",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}

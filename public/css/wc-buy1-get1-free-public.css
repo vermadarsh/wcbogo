@@ -1,0 +1,16 @@
+.non-clickable{
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.non-clickable:hover {
+	cursor: not-allowed;
+}
+
+.wcbogo-free-product-link {
+	text-decoration: underline;
+}
+
+.is-free-product td.product-quantity {
+	text-align: center;
+}
