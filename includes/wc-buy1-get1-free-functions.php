@@ -376,6 +376,10 @@ function wcbogo_get_offer_scope() {
  * @return boolean
  */
 function wcbogo_is_free_item_in_cart() {
+	// Return, if it's admin panel.
+	if ( is_admin() ) {
+		return false;
+	}
 
 	// Get cart.
 	$cart = WC()->cart->get_cart();
